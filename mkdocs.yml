@@ -1,0 +1,19 @@
+site_name: Property Management System
+pages:
+- 'Home': 'index.md'
+- General:
+  - 'User Dashboard': 'Common/dashboard.md'
+  - 'File Attachments': 'Common/Files.md'
+  - 'Notes': 'Common/Notes.md'
+- Management:
+  - 'Client': 'Management/Client.md'
+  - 'Property': 'Management/Property.md'
+  - 'Contact': 'Management/Contact.md'
+  - 'Supplier': 'Management/Supplier.md'
+- Maintenance:
+    - 'Jobs': 'Maintenance/Job.md'
+    - 'Issues': 'Maintenance/Issue.md'
+    - 'Site Visit': 'Maintenance/SiteVisit.md'
+theme_dir: pmms_theme
+extra_css: ['css/admonition.css']
+markdown_extensions: ['extra', 'admonition','iconfonts(base=fa fa-fw,prefix=fa-)']
