@@ -47,7 +47,7 @@ Once a client has been chosen from the Client List, the Cleint Details can be sh
 
 The Client Details screen contains several panels (each with a title that describes its contents), a number of statistics boxes (similar to the User Dashboard), and a tab menu at the upper right.
 
-### Client Status
+### Client Statistics
 ![Client Stats](../img/Client/stats.png)  
 
 This area shows the total number of Open Jobs, Open Issues, New Issues, and (optionally) any Calendar Events coming up.
