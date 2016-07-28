@@ -57,7 +57,7 @@ Once a Property has been chosen from the Property List, the Property Details can
 The Property Details screen contains several panels, each with a title that describes its contents.
 
 #### Property Details
-![Property Details Panel](../img/Property/property_details_panel.png)  
+![Property Details Panel](../img/Property/property-details-panel.png)  
 This panel contains relevant information about the property: Client name (and a link to that Client's detail page), Property ID, Address, and Property Type.
 
 There is also a drop-down menu in this panel which provides an <span style="background: #efefef; padding: 4px;">&fa-pencil; Edit</span> option to edit the Property details.
