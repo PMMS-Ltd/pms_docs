@@ -71,14 +71,13 @@ This panel contains information about the current Owner Account associated with 
 This panel displays the most recent Issues associated with a Property including: the current status of the Issue, when the Issue was last updated, and also whether a Job has been raised against that Issue.
 
 #### Finances
-![Finances Panel](../img/Property/finances-panel.png)
+![Finances Panel](../img/Property/finances-panel.png)  
 The Finances panel displays information about the service charge, for the current year (shown in the panel title), including the available payment plan options (specified in the service charge type).
 
 #### Arrears
-![Arrears Panel](../img/Property/arrears-panel.png)
+![Arrears Panel](../img/Property/arrears-panel.png)  
 The arrears panel shows the current state of the service charge account for a given property (i.e. whether the property is in arrears and whether any arrears reminders have been sent). This panel also has a <button class="btn btn-xs btn-default"><i class="fa fa-fw fa-file"></i>Statement</button> button which shows an on-screen service charge statement that can then be printed or exported to PDF (for attaching to an email).
 
 #### Files
 ![Property Files](../img/Client/files-panel.png)  
-
 This panel shows any files or documents which have been attached to this Property. This can include: correspondence received from the Property owner(s), completed "Management Particulars" forms, or any other documents relevant to the Property.
