@@ -76,3 +76,15 @@ This panel shows a list of the current Client Directors who are responsible for 
 ![Contracts](../img/Client/contracts_panel.png)  
 
 This panel shows any current Contracts associated with the Client (i.e. Communal Cleaning, Grounds Maintenance, Lift Maintenance, Entry Phone Services, Fire Alarms, etc.) This panel is useful for determining not only which contractors supply regular services to the Client, but also how often and when is that service usually supplied.
+
+---
+## Add new Client
+Clients can be added in two ways: either individually or in bulk via excel import.
+
+### Add Clients Individually
+Clients can be added individually by following the below:
+
+1. From the Client List screen click on the down arrow at the top of the screen to display the Client drop-down menu and click "Add New"  
+![Client Drop-Down Menu](../img/Client/client-dropdown-menu.png)
+2. The "Create Client" form is now displayed. Complete the form (all fields are required) and click <button class="btn btn-sm btn-success"><i class="fa fa-fw fa-save"></i> Create</button>  
+![Create Client Form](../img/Client/create-client-form.png)
