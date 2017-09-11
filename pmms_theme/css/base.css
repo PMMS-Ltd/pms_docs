@@ -68,7 +68,7 @@ img.navbar-brand {
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
     text-decoration: none;
-    background: #882435;
+    background: #8B1759;
     color: #fff;
     transition: background-color 0.2s;
 }
@@ -76,7 +76,7 @@ img.navbar-brand {
 .bs-sidebar .nav > .active:hover > a,
 .bs-sidebar .nav > .active:focus > a {
     font-weight: bold;
-    background-color: #1a355e;
+    background-color: #1E3C86;
     color: #fff;
     transition: background-color 0.2s;
 
@@ -125,7 +125,7 @@ img.navbar-brand {
 }
 th > a {
 	/*color: #fff;*/
-	color: #1a355e;
+	color: #1E3C86;
 	text-decoration: none !important;
 }
 th {
@@ -265,9 +265,9 @@ h1, h2, h3{
 	border-color: #8f2041;
 }
 .status-in-progress, .status-open {
-	background: #1a355e;
+	background: #1E3C86;
 	font-size: 85%;
-	border-color: #1a355e;
+	border-color: #1E3C86;
 }
 
 .list-unstyled {
@@ -283,7 +283,7 @@ h1, h2, h3{
   width: 120px;
 }
 .nav>li>a {
-	color: #1a355e;
+	color: #1E3C86;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
 	background-color: #fafafa;
@@ -295,7 +295,7 @@ table i.fa.fa-check {
   color: #41A85F;
 }
 table i.fa.fa-times {
-  color: #882435;
+  color: #8B1759;
 }
 .note {
  	padding: 5px;

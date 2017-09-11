@@ -8,9 +8,9 @@ Properties (or Units) are the individual constituent parts that make up a Client
 Field  | Required  | Description
 --|---|--
 Client | &fa-check; | The Client to which this Property belongs.
-PropertyID | &fa-check; | This is the unique reference by which the Property is known, and is of the form <ClientID (3/4)>-<Road (1/3>-<UnitNo (3/5)>
-Address  | &fa-check;  |  This is the physical location of the property
-Property Type | &fa-times;  | This is the type of the property which can be one of the following: "Studio Flat", "1 Bed Flat", "2 Bed Flat", "3 Bed Flat", "House", "Maisonette", "Other"
+PropertyID | &fa-check; | This is the unique reference by which the Property is known, and is of the form: ```{ClientID (3/4)}-{Road (1/3}-{UnitNo (3/5)}```
+Address  | &fa-check;  |  This is the physical location of the property (including the 3 digit ISO country code - 'gbr' for 'United Kingdom')
+Property Type | &fa-times;  | This is the type of the property which can be one of the following: **Studio Flat**, **1 Bed Flat**, **2 Bed Flat**, **3 Bed Flat**, **House**, **Maisonette**, **Other**
 Service Charge Type  | &fa-times;  |  The service charge category which indicates this property's contribution to the service charge.
 
 ---
@@ -81,3 +81,26 @@ The arrears panel shows the current state of the service charge account for a gi
 #### Files
 ![Property Files](../img/Client/files-panel.png)  
 This panel shows any files or documents which have been attached to this Property. This can include: correspondence received from the Property owner(s), completed "Management Particulars" forms, or any other documents relevant to the Property.
+
+---
+## Import Properties via Spreadsheet
+Properties can be added to a Client individually (through the "Add Property" screen) or in bulk via a spreadsheet upload. In order to achieve this:  
+
+1. Open the Client Details page for the required Client  
+
+2. From the Properties panel select <span style="background: #efefef; padding: 4px;"><i class="fa fa-fw fa-file-excel-o text-success"></i> Download Template</span> from the drop-down menu  
+3. Complete the Properties Sheet referring to the [Property Fields](#fields) table above for field values and types, and completing the property addresses including the ISO 3 digit country code ('gbr' for United Kingdom).  
+4. Complete the Owners sheet with as much information about the property owners as possible i.e. address (including country code as above), phone number (phone types are: **MOBILE**, **WORK**, or **HOME**), and email (email types are: **PERSONAL** or **WORK**).  
+
+    !!! danger "&fa-exclamation; Note"
+        Each Property can have multiple owners who should be entered on a separate line - e.g. Mr T and Mrs J Smith should be entered on separate lines with the same Property Id and address, but with different contact email and phone numbers if provided.
+
+5. Save the spreadsheet with a suitable name to a known location (e.g. "My Documents" or "Desktop")  
+
+6. From the Properties panel of the Client Details page select <span style="background: #efefef; padding: 4px;"><i class="fa fa-fw fa-upload text-info"></i> Import Properties</span>, and in the dialog box select the completed spreadsheet and click <button class="btn btn-info btn-sm"><i class="fa fa-fw fa-upload"></i> Upload</button>  
+
+7. Depending on the number of properties it may take several minutes to complete import process, but once completed the Properties panel should now contain a list of properties - with their corresponding auto-generated account numbers.  
+
+
+    !!! danger "&fa-exclamation; Error"
+        If a "Grails Error" occurs please refer this to your administrator for further analysis, as it is likely the spreadsheet contains some invalid data.

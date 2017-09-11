@@ -15,12 +15,27 @@ Registration Date  |  &fa-times; |  The date of the registration of the company 
 Year Start  | &fa-check;  |  This the start of the current financial year for the Client
 Year End  | &fa-check;  |  This is the end of the current financial year for the Client
 Property Manager  | &fa-check;  | This is the Property Manager responsible for this Client
+Account Name | &fa-check; | This is the Client bank account name
+Account Number | &fa-check; | This is the Client bank account number
+Sort Code | &fa-check; | This is the Client bank account sort code (typically 20-05-57)
 
 ---
 ## Client List
 The Client List is a list of all the Clients currently being managed by PMMS. It can be accessed from the top menu bar under the "Management" drop-down category. The list can then be filtered and sorted to show only the required sub-set of Clients.  
 
 ![Jobs List Menu](../img/Client/management-menu-clients.png)  
+----
+### Client List Options
+Once the Client List screen has been opened there are a number of additional options that can be accessed via the drop-down menu adjacent to <button class="btn btn-xs btn-primary"><i class="fa fa-fw fa-caret-down"></i> Filters</button>  
+![Client Drop-Down Menu](../img/Client/client-dropdown-menu.png)
+#### <i class="fa fa-fw fa-plus text-success"></i> Add New
+Selecting this option opens the Create Client screen
+
+#### <i class="fa fa-fw fa-file-excel-o text-success"></i> Download template
+This option downloads the Excel template file necessary to import Client(s)
+
+#### <i class="fa fa-fw fa-upload text-info"></i> Import Client(s)
+This option opens an upload dialog for completed Client import spreadsheets
 
 ---
 ## Client Filters
@@ -42,8 +57,18 @@ Year End   |  This is a drop-down list of calendar months which allows all clien
 PM  |  This is a drop-down list of maintenance department members which allows all clients managed by a particular Property Manager to be selected.
 
 ---
+## Refresh List
+The list of currently displayed clients can be refreshed by clicking on the <button class="btn btn-xs btn-success"><i class="fa fa-fw fa-refresh"></i>Refresh</button> button.
+
+---
+## Print Client List
+Once a desired list of clients has been achieved by applying filters the list can be printed by clicking the <button class="btn btn-xs btn-info"><i class="fa fa-fw fa-print"></i>Print</button> button.
+
+!!! info "NOTE:"
+    This will only print what is currently displayed on the screen. If the list of Clients spans multiple pages, please make sure that "All" has been selected from the page-size drop-down.
+---
 ## Client Details
-Once a client has been chosen from the Client List, the Cleint Details can be shown be clicking <button class="btn btn-xs btn-primary"><i class="fa fa-fw fa-eye"></i> View</button>
+Once a client has been chosen from the Client List, the Client Details can be shown be clicking <button class="btn btn-xs btn-primary"><i class="fa fa-fw fa-eye"></i> View</button>
 
 The Client Details screen contains several panels (each with a title that describes its contents), a number of statistics boxes (similar to the User Dashboard), and a tab menu at the upper right.
 
@@ -81,10 +106,20 @@ This panel shows any current Contracts associated with the Client (i.e. Communal
 ## Add new Client
 Clients can be added in two ways: either individually or in bulk via excel import.
 
-### Add Clients Individually
+### Add Client Individually
 Clients can be added individually by following the below:
 
-1. From the Client List screen click on the down arrow at the top of the screen to display the Client drop-down menu and click "Add New"  
-![Client Drop-Down Menu](../img/Client/client-dropdown-menu.png)
-2. The "Create Client" form is now displayed. Complete the form (all fields are required) and click <button class="btn btn-sm btn-success"><i class="fa fa-fw fa-save"></i> Create</button>  
-![Create Client Form](../img/Client/create-client-form.png)
+1. From the [Client List Options](#client-list-options) drop-down select <i class="fa fa-fw fa-plus text-success"></i> Add New
+
+2. The "Create Client" form is now displayed. Complete the form (all fields marked with <i class="fa fa-fw fa-asterisk text-danger" style="font-size: 0.6em; vertical-align: super;"></i> are required) and click <button class="btn btn-sm btn-success"><i class="fa fa-fw fa-save "></i> Create</button>  
+![Create Client Form](../img/Client/create-client-form.png)  
+
+
+### Client Excel import
+Multiple Clients (or a single Client) can also be imported via an Excel template:
+
+1. From the Client Options drop-down menu select <span style="background: #efefef; padding: 4px;"><i class="fa fa-fw fa-file-excel-o text-success"></i> Download Template</span>
+2. Open the Excel template file and complete the relevant fields (please refer to the [Client Fields](#fields) section to determine required/optional fields) for each Client to be imported
+3. Save the file and from the Client Options drop-down menu select <span style="background: #efefef; padding: 4px;"><i class="fa fa-fw fa-upload text-info"></i> Import Client(s)</span>
+4. Select the file saved previously and click <button class="btn btn-sm btn-info"><i class="fa fa-fw fa-upload"></i> Upload</button>
+5. Assuming that no errors have occurred then you will be re-directed to the Client List screen once the import is complete.

@@ -52,8 +52,17 @@ The Job filters panel contains the following filters:
 | Job ID | If the issue has been linked to a Job then the ID of the Job can be filtered here. You may only enter one Job ID at a time (i.e. you can not filter for a number range).|
 | Min/Max (days) Age & Last updated | These two filters operate in a similar way. They enable Issues to be filtered either less than a certain number of days (Max box), or greater than a certain number of days (Min box), or between two values (Max and Min box). This is useful for determining Issues created, or updated, today or in the last 7,30,60,90 or 7,14,30 days (respectively).|
 
-___
+---
+## Refresh List
+The list of currently displayed Issues can be refreshed by clicking on the <button class="btn btn-xs btn-success"><i class="fa fa-fw fa-refresh"></i>Refresh</button> button.
 
+---
+## Print Issue List
+Once a desired list of Issues has been achieved by applying filters the list can be printed by clicking the <button class="btn btn-xs btn-info"><i class="fa fa-fw fa-print"></i>Print</button> button.
+
+!!! info "NOTE:"
+    This will only print what is currently displayed on the screen. If the list of Issues spans multiple pages, please make sure that "All" has been selected from the page-size drop-down.
+---
 ## Add a New Issue
  1.   Select <i class="fa fa-fw fa-plus text-success"></i><i class="fa fa-fw fa-bolt text-success"></i> **New Issue** from the Maintenance menu.
  2. The **Create New Issue** form is then shown.  

@@ -71,8 +71,18 @@ These two filters operate in a similar way. They enable Jobs to be filtered eith
 
 #### Priority
 This drop-down filter allows only those Jobs with a certain priority to be displayed. Only 1 priority can be selected at a time.
-___
 
+---
+## Refresh List
+The list of currently displayed Jobs can be refreshed by clicking on the <button class="btn btn-xs btn-success"><i class="fa fa-fw fa-refresh"></i>Refresh</button> button.
+
+---
+## Print Job List
+Once a desired list of Jobs has been achieved by applying filters the list can be printed by clicking the <button class="btn btn-xs btn-info"><i class="fa fa-fw fa-print"></i>Print</button> button.
+
+!!! info "NOTE:"
+    This will only print what is currently displayed on the screen. If the list of Jobs spans multiple pages, please make sure that "All" has been selected from the page-size drop-down.
+---
 ## Raise a new Job
 In order to add a new Job to the system an Issue must first be created. Once the Issue has been created a Job can be raised for the Issue by:
 
