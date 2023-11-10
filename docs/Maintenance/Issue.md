@@ -5,7 +5,7 @@ Issues are the means of recording and monitoring problems or faults reported by 
 Issues can also be requests for information relating to a particular Property or Client; e.g. access codes (gates/ barriers/ bin stores/ bike sheds), buildings insurance information, parking permit / parking control inquiries.
 
 ____
-##Fields
+## Fields
   Issues consist of the following fields:
 
 
@@ -23,7 +23,7 @@ ____
 ___
 
 ## Issue List
-The Issue List is a list of all the Jobs currently held in the PMMS system. It can be accessed from the top menu bar under the "Maintenance" drop-down category. The list can then be filtered and sorted to show only the required sub-set of Issues.  
+The Issue List is a list of all the Issues currently held in the PMMS system. It can be accessed from the top menu bar under the "Maintenance" drop-down category. The list can then be filtered and sorted to show only the required sub-set of Issues.  
 
 ![Jobs List Menu](../img/Issue/maintenance-menu-issues.png)  
 
